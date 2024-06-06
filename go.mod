@@ -2,6 +2,8 @@ module github.com/fabienbellanger/gofr-boilerplate
 
 go 1.22.3
 
+require gofr.dev v1.8.1
+
 require (
 	cloud.google.com/go v0.114.0 // indirect
 	cloud.google.com/go/auth v0.4.2 // indirect
@@ -66,7 +68,6 @@ require (
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.1.0 // indirect
 	go.uber.org/mock v0.4.0 // indirect
-	gofr.dev v1.8.1 // indirect
 	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/mod v0.11.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
